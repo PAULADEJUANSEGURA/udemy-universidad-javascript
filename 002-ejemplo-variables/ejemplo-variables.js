@@ -23,6 +23,10 @@ let verdadero = true;
 let falso = false;
 console.log("Lo contrario de verdadero es: " + !verdadero);
 
+// tipo Null
+let miVariable = null;
+console.log(miVariable);
+
 // tipo Undefined
 let x;
 let y;
