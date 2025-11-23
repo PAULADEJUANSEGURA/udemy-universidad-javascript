@@ -34,5 +34,17 @@ console.log(typeof miNulo);
 let miUndef = undefined;
 console.log(miUndef);
 console.log(typeof miUndef);
-//Vemos aqui que el tipo de dato UNDEFINED es undefined
+//Vemos aqui que el tipo de dato UNDEFINED es undefined (ausencia de valor)
 
+//Declaro variable pero si no le doy valor para inicializarla... su valor es UNDEFINED
+let miVar;
+console.log(miVar)
+
+//Un objeto en origen vacio es NULL pero si lo rellenamos ya tenemos un objeto con dos atributos o propiedades
+miNulo = {
+    'nombre': 'Paula',
+    'apellido': 'De Juan'
+}
+console.log(miNulo.nombre);
+console.log(miNulo.apellido);
+console.log(typeof miNulo);

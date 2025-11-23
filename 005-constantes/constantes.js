@@ -1,5 +1,5 @@
 // Una constante es parecido a una variable pero una vez definido su valor no podemos modificarlo
-// Una constante se define en mayúsculas y si teiene palabras se separan con guión bajo (PASCAL_CASE)
+// Una constante se define en mayúsculas y si tiene palabras se separan con guión bajo (PASCAL_CASE)
 const MI_CONSTANTE_PI = 3.14;
 const MI_CONSTANTE_SEGUNDOS_POR_MINUTO = 60;
 console.log(MI_CONSTANTE_PI);
