@@ -77,3 +77,28 @@ y luego se decrementa el valor de "r" a 4.
 por lo que "r" es 4 y "s" es 5. */  
 
 
+// Ejemplo en una operación más compleja:
+let num1 = 5;
+let num2 = 2;
+let resultado = ++num1 * num2--; 
+/* Primero se incrementa num1 a 6,
+luego se multiplica por num2 (2).
+La operación da como resultado 12,
+y finalmente se decrementa num2 a 1. */
+
+console.log("num1 =", num1); // 6
+console.log("num2 =", num2); // 1
+console.log("resultado =", resultado); // 12
+
+
+// Otro ejemplo en otra operación más compleja:
+let num3 = 5;
+let num4 = 2;
+let resultado2 = num3++ * --num4;
+/* Primero se decrementa num4 a 1,
+luego se multiplica por num3 (5).
+La operación da como resultado 5,
+y finalmente se incrementa num3 a 6. */
+console.log("num3 =", num3); // 6
+console.log("num4 =", num4); // 1
+console.log("resultado2 =", resultado2); // 5
