@@ -36,6 +36,6 @@ console.log(resultado);
 resultado = miNumero1 ** miNumero2;
 console.log(resultado);
 
-// INCREMENTO
-// pre-incremento
+// Ver carpeta 007-incremento-decremento para ver el incremento y decremento
+
  
