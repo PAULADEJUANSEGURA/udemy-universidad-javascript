@@ -32,7 +32,7 @@ console.log(x == y); // true (comparación de valores, no de tipos) Operador de 
 console.log(x === y); // false (comparación de valores y tipos) Operador de igualdad estricta "==="
 
 
-let varZ = 0;
+let varZ = 1;
 
 if (varZ > 0) {
     console.log('varZ es positivo');
