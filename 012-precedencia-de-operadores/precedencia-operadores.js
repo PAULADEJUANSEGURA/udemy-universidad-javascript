@@ -23,8 +23,5 @@ function precedenciaOperadores() {
     // Paso 4: Se realiza la resta 7.2 - 1 = 6.2 o con más precisión de decimales 6.1999999...
     console.log("Resultado variable b:  12 / (3 + 2) * 3 - 1 = " + b);
     document.getElementById("resultado_02").innerHTML = "En este caso, se utilizan paréntesis para cambiar el orden de evaluación de las operaciones. Los paréntesis tienen la mayor prioridad. <br> " + "Resultado variable b:  12 / (3 + 2) * 3 - 1 = " + b;
-
-
-
-
+    
 };
