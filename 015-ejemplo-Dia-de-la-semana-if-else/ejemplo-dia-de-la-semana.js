@@ -22,25 +22,25 @@ formulario.addEventListener("submit", function (evento) {
   let diaSemana;
   if (dia === "lunes") {
     diaSemana = "lunes";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 1 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El primer dia de la semana es ${diaSemana}.`;
   } else if (dia === "martes") {
     diaSemana = "martes";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 2 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El segundo día de la semana es ${diaSemana}.`;
   } else if (dia === "miércoles") {
     diaSemana = "miércoles";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 3 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El tercer día de la semana es ${diaSemana}.`;
   } else if (dia === "jueves") {        
     diaSemana = "jueves";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 4 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El cuarto día de la semana es ${diaSemana}.`;
   } else if (dia === "viernes") {
     diaSemana = "viernes";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 5 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El quinto día de la semana es ${diaSemana}.`;
   } else if (dia === "sábado") {
     diaSemana = "sábado";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 6 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El sexto día de la semana es ${diaSemana}.`;
   } else if (dia === "domingo") {
     diaSemana = "domingo";
-    resultadoNumeroDia.textContent = `El día de la semana correspondiente al día 7 es ${diaSemana}.`;
+    resultadoNumeroDia.textContent = `El séptimo día de la semana es ${diaSemana}.`;
   }
 });
 
