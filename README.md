@@ -7,4 +7,4 @@
 
 ## Estructura de Carpetas con Fecha 16/11/2026
 
-|[Estructura de carpetas](imagenes/estructura-carpetas-fecha-16-noviembre-2026.png)
+![Estructura de carpetas](imagenes/estructura-carpetas-fecha-16-noviembre-2026.png)
